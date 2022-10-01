@@ -1,0 +1,42 @@
+body{
+    background-color: yellowgreen;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.challenge1{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.flexbox{
+    display: flex;
+    border: 1px solid black;
+    padding: 1px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+
+#flexboxresult{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around; 
+} 
+.btn{
+    display: inline-block;
+    margin: 5;
+    padding: 1.5%;
+    color: aliceblue;
+    background-color: blue;
+    border: 1px solid black; 
+}
+
+.btn:hover{
+    background-color: crimson;
+}
